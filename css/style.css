@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+p{color: #696666; font-size: 18px;}
+h1,h2{ color: #000;}
+
+main{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+.section-a, .section-b{
+    padding-top: 100px;
+}
+.section-b{
+       background: #ddd;
+       min-height: 100vh;
+}
+.content-a{
+    margin-left: 250px;
+    margin-right: 50px;
+}
+.content-a h1{
+    font-size: 50px;
+    font-weight: 800;
+    padding-right: 200px;
+    overflow: hidden;
+
+}
+.content-a p{
+    padding-top: 10px;
+    padding-right: 100px;
+}
+.b-content{
+    padding: 10px 50px;
+}
+.b-content h2{
+    font-size: 50px;
+    font-weight: 500;
+    color: #333;
+    padding-bottom: 5px;
+}
+.b-content p{
+    padding-bottom: 15px;
+}
+.form-control{
+    margin: 10px 0;
+    margin-right: 150px;
+    padding-right: 200px;
+    position: relative;
+}
+i{
+    color: #28cf28;
+    font-size: 20px;
+    position: absolute;
+    top: 44px;
+    left: 14px;
+}
+label{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.form-control input{
+    width: 100%;
+    display: block;
+    padding: 16px 50px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+}
+.form-control input:focus{
+    outline: 0;
+    border-color: #a8a3a3;
+}
+::placeholder{
+    font-size: 18px;
+}
+
+.btn{
+    display: block;
+    background: #ff0000;
+    padding: 8px 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+}
+a{
+    color: #ff0000;
+    font-size: 18px;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* media query */
+@media screen and (max-width:768px){
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-a, .section-b{
+        padding-top: 20px;
+    }
+    .section-b{
+           background: #ddd;
+           min-height: 100vh;
+    }
+    .content-a{
+        margin: 20px;
+        padding: 20px;
+    }
+    img{
+        width: 100%;
+        width: 100%;
+    }
+    .content-a h1{
+        font-size: 30px;
+        font-weight: 600;
+        padding: 10px;
+    
+    }
+ 
+    .content-a p{
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+    .b-content{
+        padding: 10px 30px;
+    }
+    .b-content h2{
+        font-size: 30px;
+        font-weight: 400;
+        color: #333;
+        padding-bottom: 5px;
+    }
+    .b-content p{
+        padding-bottom: 10px;
+    }
+    .form-control{
+        margin: 10px 0;
+        margin-right: 30px;
+        padding-right: 30px;
+        position: relative;
+    }
+    a{
+        color: #ff0000;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
