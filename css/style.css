@@ -32,14 +32,15 @@ main{
 }
 
 .section-b{
-       background: #ddd;
+       background: #cecccc;
        min-height: 100vh;
+       padding-left: 30px;
 }
 .content-a{
     margin-left: 50px;
 }
 .content-a h1{
-    font-size: 46px;
+    font-size: 50px;
     font-weight: 800;
     padding-right: 50px;
 
@@ -47,7 +48,7 @@ main{
 }
 .content-a p{
     padding-top: 10px;
-    padding-right: 100px;
+    padding-right: 30px;
 }
 .b-content{
     padding: 10px 50px;
@@ -134,9 +135,10 @@ a:hover{
         padding-left: 0px;
     }
     .section-b{
-           background: #ddd;
-           min-height: 100vh;
-    }
+        background: #cecccc;
+        min-height: 100vh;
+        padding-left: 5px;
+ }
     .content-a{
         margin: 20px;
         padding: 20px;
