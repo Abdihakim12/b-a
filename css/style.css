@@ -26,18 +26,22 @@ main{
 .section-a, .section-b{
     padding-top: 100px;
 }
+.section-a{
+    margin-left: 200px;
+    padding-left: 150px;
+}
+
 .section-b{
        background: #ddd;
        min-height: 100vh;
 }
 .content-a{
-    margin-left: 250px;
-    margin-right: 50px;
+    margin-left: 50px;
 }
 .content-a h1{
-    font-size: 50px;
+    font-size: 46px;
     font-weight: 800;
-    padding-right: 200px;
+    padding-right: 50px;
 
 
 }
@@ -124,6 +128,10 @@ a:hover{
     }
     .section-a, .section-b{
         padding-top: 20px;
+    }
+    .section-a{
+        margin-left: 0px;
+        padding-left: 0px;
     }
     .section-b{
            background: #ddd;
