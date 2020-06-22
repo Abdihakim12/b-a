@@ -120,6 +120,46 @@ a:hover{
 }
 
 /* media query */
+@media (max-width:1024px){
+   
+.section-a, .section-b{
+    padding-top: 100px;
+}
+.section-a{
+    margin-left: 20px;
+    padding-left: 30px;
+}
+
+.b-content{
+    padding: 10px 20px;
+}
+.b-content h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: #333;
+    padding-bottom: 5px;
+}
+.b-content p{
+    padding-bottom: 15px;
+}
+.form-control{
+    margin: 10px 0;
+    margin-right: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+i{
+    color: #28cf28;
+    font-size: 20px;
+    position: absolute;
+    top: 44px;
+    left: 14px;
+}
+label{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+}
 @media screen and (max-width:768px){
     main{
         display: flex;
@@ -172,8 +212,8 @@ a:hover{
     }
     .form-control{
         margin: 10px 0;
-        margin-right: 30px;
-        padding-right: 30px;
+        margin-right: 20px;
+        padding-right: 20px;
         position: relative;
     }
     a{
